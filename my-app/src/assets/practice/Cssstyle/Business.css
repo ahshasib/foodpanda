@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.business{
+width: 100%;
+height: 800px;
+background: url("image/Owner.jpg") no-repeat center center;
+background-size: cover;
+    
+}
+.businesstitel{
+    padding-top: 140px;
+    color: #fff;
+    width: 400px;
+}
+.businesstitel h2{
+    font-size: 36px;
+    font-weight: normal;
+}
+.businesstitel p{
+    font-size: 18px;
+    font-weight: 480;
+}
+.businesslogin{
+    width: 400px;
+    height: 560px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    
+    
+}
+.businesslogin form{
+    margin-left: 10px;
+}
+.businesslogin form input{
+    height: 54px;
+    margin-left: 23px;
+    
+}
+
+.businesslogin h2{
+    font-size: 22px;
+    padding-top: 40px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+/* .flag{
+    display: flex;
+    
+    margin-left: 20px;
+    
+} */
+
+/* .flag label{
+    height: 20px;
+    width: 30px;
+    display: flex;
+    margin-left: 6px;
+    margin-top: 16px;
+ margin-right: 20px;
+    
+}
+
+.flag label img{
+    height: 100%;
+    width: 100%;
+} */
+.getstartbutton{
+    text-align: center;
+
+}
+.getstartbutton button{
+    width: 180px;
+    height: 50px;
+    margin-right: -15px;
+    background-color: #FF2B85;
+    color: #fff;
+    margin-top: 30px;
+    border: none;
+}
+.getstartbutton button:hover{
+    width: 180px;
+    height: 50px;
+    margin-right: -15px;
+    background-color: #FF2B85;
+    color: #fff;
+    margin-top: 30px;
+    border: none;
+}
+.service{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.service h1{
+    text-align: center;
+    padding-bottom: 70px;
+    font-weight: bold;
+}
+.service h1 span{
+    color: #FF2B85;
+}
+.service .servicelist{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.servicelist div{
+    width: 300px;
+    height: 275px;
+    background-color: rgb(243, 242, 242);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.service div img{
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+}
+
+
+.rider {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-bottom: 50px;
+  }
+  
+  .bysicle {
+    display: flex;
+    margin: 0 auto;
+    justify-content:center;
+    align-items: stretch; /* Ensure children take the full height of the container */
+    width: 100%;
+    
+  }
+  
+  .riderimage,
+  .ridertext {
+    flex: 1; /* Ensure both divs take up equal space */
+    max-width: 45%;
+    padding: 0;
+    margin: 0;
+    /* Make them flex containers */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    background-color: #FF2B85;
+  }
+  
+  .ridertext p {
+    margin: 100px 100px 0px 100px;
+    font-size: 30px;
+    font-weight: 380;
+    color: #fff;
+
+  }
+  .ridertext span{
+    color: rgb(173, 172, 172);
+    font-size: 17px;
+    font-weight:340;
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+  
+  .riderimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire area */
+    display: block;
+  }
+  @media (min-width: 769px) and (max-width: 992px){
+    .servicelist div{
+        width:22%;
+        height: auto;
+       
+      
+    }
+    .servicelist div .cardbody{
+        width: 100%;
+    }
+    .servicelist div img{
+        width: 80px;
+        height: 80px;
+    }
+    .servicelist div h5{
+        font-size: 15px;
+     
+       
+    }
+    .servicelist div p{
+        font-size: 11px;
+       width: 98%;
+    }
+    .riderimage,
+    .ridertext {
+      max-width: 50%;
+     
+    }
+    .ridertext p {
+        font-size: 20px;
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 15px;
+      }
+     
+
+  }
+  @media all and (max-width:767px){
+
+    .servicelist div{
+        width:25%;
+        height: auto;
+       
+      
+    }
+    .servicelist div .cardbody{
+        width: 100%;
+    }
+    .servicelist div img{
+        width: 50px;
+        height: 50px;
+    }
+    .servicelist div h5{
+        font-size: 11px;
+     
+       
+    }
+    .servicelist div p{
+        font-size: 9px;
+       width: 98%;
+    }
+    .riderimage,
+    .ridertext {
+      max-width: 50%;
+     
+    }
+    .ridertext p {
+        font-size: 15px;
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 15px;
+      }
+      .ridertext span{
+        
+        font-size: 14px;
+      
+      }
+      .businesstitel h2{
+        font-size: 27px;
+      
+    }
+    .businesstitel p{
+        font-size: 15px;
+       
+    }
+    .businesslogin{
+        width: 65%;
+        height:auto;
+    padding-bottom: 20px;
+        
+    }
+    .businesslogin h2{
+        font-size: 15px;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    
+    .businesslogin form input{
+        height: 40px;
+       font-size: 13px;
+        
+    }
+    .businesslogin button{
+        width: 50%;
+        height: auto;
+        font-size: 14px;
+        margin-top: 3px;
+    }
+    
+     
+
+  }

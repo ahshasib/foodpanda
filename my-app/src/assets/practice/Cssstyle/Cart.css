@@ -1,0 +1,356 @@
+/* Right Card Styles */
+
+.rightordercard {
+    
+    width:370px ;
+    height: auto;
+    
+    margin-top: 40px;
+    border: 1px solid rgb(224, 224, 224);
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rightordercard .ordercardimageandtext {
+    text-align: center;
+    border-bottom: 1px solid rgb(227, 226, 226);
+}
+
+.rightordercard .ordercardimageandtext img {
+    width: 150px;
+    height: 150px;
+}
+
+.rightordercard .ordercardimageandtext h5 {
+    padding: 10px 0;
+}
+
+.rightordercard .ordercardimageandtext p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #FF2B85;
+    padding-bottom: 20px;
+}
+
+.rightordercard .totalamaount {
+    /* align-self: flex-end; */
+    background-color: #fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+    margin-top: auto;
+}
+
+.rightordercard .totalamaount .totalamounttext {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin: 15px 20px;
+    font-size: 18px;
+}
+
+.totalamaount .totalamounttext span {
+    font-size: 11px;
+}
+
+.rightordercard .totalamaount button {
+    background-color: #FF2B85;
+    height: 50px;
+    width: 90%;
+    text-align: center;
+    margin-left: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 590;
+}
+
+.rightordercard .ordercardseleactitem {
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 12px;
+}
+
+.rightordercard .ordercardseleactitem img {
+    width: 80px;
+    height: 60px;
+    border-radius: 6px;
+    margin-left: 13px;
+    margin-right: 15px;
+}
+
+.rightordercard .ordercardseleactitemtext .orderbuttonandtk {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ordercardseleactitemtext .nameandremovbut {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ordercardseleactitemtext .nameandremovbut button {
+    margin-right: -5px;
+    border: none;
+}
+
+.ordercardseleactitemtext div p {
+    font-size: 15px;
+    font-weight: 590;
+    color: #FF2B85;
+}
+
+.orderdegetindic {
+    width: 80px;
+    height: 30px;
+    position: relative;
+    display: flex;
+    margin-left: 80px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.orderdegetindic .degetinput {
+    position: relative;
+    text-align: center;
+    width: 78px;
+    height: 28px;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 8px;
+}
+
+.orderdegetindic button {
+    position: absolute;
+    text-align: center;
+    height: 30px;
+    padding-top: 2px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+}
+
+.orderdegetindic .btn-increment {
+    right: 0;
+}
+
+.orderdegetindic .btn-decrement {
+    left: 0;
+    z-index: 1;
+}
+.finalorderpage{
+    width: 100%;
+    height: 100%;
+    display: none;
+    /* opacity: 0;
+    pointer-events: none; */
+}
+
+.finalorderpage-active{
+    display: flex;
+    display: block;
+    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+   
+    justify-content: center;
+    align-items: center;
+}
+.finalorderpage-active .mainpoint{
+    margin-top: 40px;
+   margin: 0 auto;
+    background-color: #fff;
+    border: 4px solid #FF2B85;
+    border-radius: 18px;
+    width: 70%;
+    height: 95%;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.finalorderpage-active .mainpoint h2{
+    text-align: center !important;
+    margin: 0 auto;
+    color: #FF2B85;
+    padding-top: 20px;
+}
+.finalordermainimg{
+    width: 350px;
+    height: 300px;
+    margin: 0 auto;
+}
+.finalordermainimg img{
+    width: 100%;
+    height: 100%;
+}
+
+.identityform{
+    width: 70%;
+    height: auto;
+    border-right: 1px solid rgb(233, 233, 233);
+  
+  
+
+}
+.identityform h4{
+    text-align: center;
+    padding-bottom: 20px;
+    color: #FF2B85;
+    /* margin-top: 40px; */
+}
+.identityform form{
+    margin-left: 100px;
+  
+   
+}
+.identityform form input{
+    margin-top: 10px;
+    background-color: #fff1f8;
+}
+.identityform form select{
+    margin-top: 10px;
+    background-color: #fff1f8;
+}
+.identityform form label{
+    margin-top: 5px;
+}
+.identityform form button{
+    margin-top: 50px;
+    margin-left: 190px;
+    background-color: #FF2B85 !important;
+    border: none !important;
+    color: #fff !important;
+    font-weight: 600;
+}
+.identityproductsum{
+    width: 50%;
+    height: auto;
+   margin-left: 20px;
+}
+.finalorderpage-active .identity{
+    display: flex;
+    justify-content: space-between;
+}
+.identityproductsum .identityproductimage{
+    display: flex;
+    width: 70px;
+    height: 55px;
+    margin-left: 50px;
+    color: #FF2B85;
+}
+.identityproductsum .identityproductimage img{
+    width: 70px;
+    height: 55px;
+    border-radius: 9px;
+    margin-left: 15px;
+   
+}
+.identityproductsum .itemproductinnerdiv{
+    margin-left: 10px;
+    display: flex;
+    border-bottom: 1px solid rgb(242, 242, 242);
+}
+.identityproductsum .identitydetail{
+    margin-left: 50px;
+}
+.totalda{
+   text-align: end;
+   font-size: 19px;
+   font-weight: 600;
+   margin-top: 4px;
+   margin-right: 30px;
+   color: #FF2B85;
+}
+.haderandclosebut{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   
+
+}
+.haderandclosebut button{
+   font-size: 20px;
+   font-weight: 700;
+   margin-top: 30px ;
+   margin-right: 10px;
+   border: 2px solid #FF2B85;
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+.rightordercard{
+    margin-left: -50px;
+}
+.finalorderpage-active .mainpoint{
+  
+    width: 100%;
+    height: 100%;
+   
+}
+.identityproductsum{
+    margin-left: -10px;
+}
+}
+@media all and (max-width:767px){
+    .rightordercard {
+        margin-left: 80px;
+        width:80vw;
+        height: auto;
+       
+    }
+    .finalorderpage-active .mainpoint{
+  
+        width: 100%;
+        height: 94%;
+       
+    }
+    .finalordermainimg{
+        width: 100px;
+        height: 100px;
+    }
+   .haderandclosebut h2{
+    font-size: 20px;
+    margin-left: 20px;
+   }
+   .identity{
+    flex-direction: column;
+   }
+   .identityform{
+    width: 95%;
+    margin-left: -50px;
+    border: none;
+   }
+   .identityform h4{
+    font-size: 18px;
+    margin-left: 100px;
+   }
+   .identityform .ordrnow{
+    margin-top: -30px;
+    margin-left: -40px;
+   }
+   .identityform form input{
+    margin-top: -5px;
+   }
+   .identityform form select{
+    margin-top: -5px;
+   }
+   .identityform .cashondelivery{
+    margin-top:9px;
+   }
+   .identityproductsum{
+    margin-left: -10px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+}

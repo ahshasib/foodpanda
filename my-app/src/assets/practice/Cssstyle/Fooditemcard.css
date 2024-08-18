@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.foodcard .foodcardrow{
+   gap: 0px;
+   
+    
+}
+
+
+.foodcard .insidefoodcard{
+    width: 422px;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(229, 228, 228);
+    border-radius: 18px;
+    cursor: pointer;
+
+   
+    
+}
+
+.foodcard .insidefoodcard img{
+    border-top-right-radius:18px ;
+    border-top-left-radius: 18px;
+    cursor: pointer;
+    transition: all 1.1s;
+    position: relative;
+   
+}
+.insidefoodcard .carddiscription p{
+    font-size: 13px;
+    font-weight: 580;
+    color: rgba(0,0,0,0.6);
+    margin-top: -6px;
+}
+
+.insidefoodcard .carddiscription h5{
+    margin-top: -7px;
+}
+.insidefoodcard .foodcardspan1{
+position: absolute;
+top: 10px;
+left: 10px;
+background-color: #FF2B85;
+color: #fff;
+font-size: 13px;
+border-radius: 6px;
+padding: 0 10px;
+font-weight: 600;
+}
+.insidefoodcard .foodcardspan2{
+position: absolute;
+top: 35px;
+left: 10px;
+background-color: #FF2B85;
+color: #fff;
+font-size: 13px;
+border-radius: 6px;
+padding: 0 10px;
+font-weight: 600;
+}
+.insidefoodcard .foodcardspan1 img{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    align-items: center;
+    margin-right: 8px;
+    margin-top: -3px;
+    color: #FF2B85;
+}
+
+.insidefoodcard .foodcardspan2 img{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin-top: -3px;
+    margin-right: 8px;
+    
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+
+    .foodcard .insidefoodcard{
+        width: 100%;
+        height: auto;
+       
+    }
+    .insidefoodcard .carddiscription h5{
+        font-size: 18px;
+    }
+    .insidefoodcard .foodcardspan1{
+        
+        font-size: 11px;
+    }
+    .insidefoodcard .foodcardspan2{
+         margin-top: -5px;   
+        font-size: 11px;
+    }
+}
+
+
+@media all and (max-width:767px){
+    .foodcard {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .foodcard .insidefoodcard {
+        width: 100%; /* Adjust width to ensure two cards per row */
+        height: auto;
+        margin-bottom: 16px; 
+        box-sizing: border-box;
+    }
+
+       
+     
+/* 
+    .foodcard .insidefoodcard{
+        width:70%;
+        height: auto;
+       
+       
+    } */
+    .insidefoodcard .carddiscription h5{
+        font-size: 18px;
+    }
+    .insidefoodcard .foodcardspan1{
+        
+        font-size: 11px;
+    }
+    .insidefoodcard .foodcardspan2{
+         margin-top: -5px;   
+        font-size: 11px;
+    }
+}

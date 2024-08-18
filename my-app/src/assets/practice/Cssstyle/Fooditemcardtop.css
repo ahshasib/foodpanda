@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.shortpandacontent{
+   display: flex;
+   background-color: rgb(241, 241, 241);
+   justify-content: space-between;
+}
+.shortpandacontent h2{
+    margin-top: 200px;
+    margin-left: 290px ;
+    font-size: 41px;
+    width: 700px;
+    font-weight: 700;
+    color: rgba(0,0,0,0.7);
+    
+}
+.shortpandacontent img{
+    margin-top: 100px;
+    width: 860px;
+    height: 280px;
+}
+
+.homepagetextbutton{
+    height: 40px;
+    margin-top: 20px;
+   font-weight: 600;
+    font-size: 18px;
+   transform: translate(0.3);
+    color: #FF2B85 !important;
+    border: none !important;
+    
+}
+
+.foodcardcontainer div{
+    display: flex;
+}
+
+.foodcardcontainer div p{
+    margin-top: 29px;
+    margin-left: 10px;
+    font-size: 18px;
+
+}
+.foodcardcontainer div i{
+    margin-right: 10px;
+    margin-left: 0px;
+}
+.foodcardcontainer h2{
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+
+    .shortpandacontent{
+       width: 100vw;
+       height: auto;
+     }
+     .shortpandacontent h2{
+        font-size: 24px;
+        width: 40%;
+        margin-left: 7%;
+        margin-top: 18%;
+     }
+     .shortpandacontent img{
+       width: 60%;
+       height: auto;
+     }
+     .foodcardcontainer h2{
+       font-size: 27px;
+       margin-left: 10px;
+    }
+}
+
+@media all and (max-width:767px){
+
+
+    .shortpandacontent{
+        width: 100vw;
+        height: auto;
+      }
+      .shortpandacontent h2{
+         font-size: 20px;
+         width: 40%;
+         margin-left: 7%;
+         margin-top: 18%;
+      }
+      .shortpandacontent img{
+        width: 50%;
+        height: auto;
+      }
+      .foodcardcontainer h2{
+        font-size: 22px;
+        /* margin-left: -40px; */
+     }
+     .homepagetextbutton{
+       font-size: 14px;
+       /* margin-left: -50px; */
+    }
+    .foodcardcontainer div p{
+        font-size: 15px;
+    
+    }
+}

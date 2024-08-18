@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.foodcard1 {
+   
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid rgb(224, 224, 224);
+    width: calc(85% - 10px);
+    height: 170px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.foodcard1:hover {
+    transform: scale(1.04);
+    background-color: #fdf0f5;
+}
+
+.foodcard1 .foodcard1image img {
+    width: 150px;
+    height: 130px;
+    border-radius: 10px;
+    margin-right: 17px;
+    margin-left: 10px;
+}
+
+.foodcard1 .foodcard1text {
+    margin-left: 18px;
+    margin-top: 12px;
+    width: 380px;
+}
+
+/* .foodcard1text button {
+    padding: 3px 17px;
+    color: #fff;
+    margin-bottom: 14px;
+    background-color: #FF2B85;
+    text-align: center;
+} */
+
+.foodcard1 .foodcard1text .pricemany {
+    color: #FF2B85;
+    font-size: 18px;
+}
+
+.foodcard1 .foodcard1text p {
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: -4px;
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    .foodcard1 {
+       width: 80%;
+      
+    }
+   
+}
+
+@media all and (max-width:767px){
+
+    .foodcard1 {
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+     }
+     .foodcard1 .foodcard1image{
+        width:20%;
+        height:auto;
+     
+    }
+    .foodcard1 .foodcard1image img{
+        width:100%;
+        height:100%;
+        
+    }
+    .foodcard1 .foodcard1text{
+        /* margin-left: -30px; */
+        margin: 0;
+        padding: 0;
+    }
+    .foodcard1 .foodcard1text p {
+       font-size: 14px;
+        margin-top: -8px;
+        margin-right: 5px;
+    }
+    .foodcard1 .foodcard1text .pricemany {
+        font-size: 14px;
+    }
+    .foodcard1 .foodcard1text h6 {
+        font-size: 15px;
+        margin-top: 3px;
+    }
+}

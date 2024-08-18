@@ -1,0 +1,198 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.officialcontent .officialpic{
+    width: 100%;
+    height: 500px;
+    
+
+  }
+  .officialcontent h1{
+    
+    margin-left: 243px;
+    margin-bottom: 20px;
+  }
+
+  .officialcontent .officialpic img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .officialcontent .officialpic .officialshortdiv{
+    position: absolute;
+    height: 240px;
+    width: 650px;
+    background-color: #fff;
+    margin-top: -120px;
+    margin-left: 240px;
+    border-radius: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  }
+.officialpic .officialshortdiv h4{
+  font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 23px;
+  margin-left: 24px;
+}
+.officialpic .officialshortdiv p{
+  font-size: 19px;
+  margin-left: 24px;
+  margin-bottom: 12px;
+}
+
+.officialpic .officialshortdiv button{
+  width: 120px;
+  height: 47px;
+  background-color: #FF2B85;
+  color: #fff;
+  border-radius: 12px;
+  font-weight: 550;
+  margin-left: 25px;
+  margin-top: 13px;
+}
+.officeparagraph{
+  margin: 0 auto;
+ margin-top: 250px;
+  width: 75%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.officeparagraph .paragraph h4{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.officeparagraph .paragraph p{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+.officeparagraph .paragraph button{
+  
+  border: none;
+  width: 100%;
+  height: 50px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+}
+.officeparagraph .paragraph button:hover{
+  background-color: #d6d6d6;
+}
+
+.officelunchparagraph ul li{
+list-style: none;
+font-size: 17px;
+font-weight: 400;
+color: rgba(0, 0, 0, 0.6);
+line-height: 1.5;
+margin-left: -34px;
+}
+.officelunchparagraph ul span{
+  color: #FF2B85;
+}
+.officelunchparagraph{
+  border: none;
+}
+
+.officelunchparagraph div{
+  border-top: 1px solid rgb(227, 227, 227);
+
+}
+.officelunchparagraph h4{
+  padding-top: 15px;
+}
+
+
+@media (min-width: 769px) and (max-width: 992px){
+
+  .officialcontent .officialpic{
+    width: 100%;
+    height: auto;
+  }
+
+  .officialcontent .officialpic .officialshortdiv{
+   
+    height:auto;
+    width: 70vh;
+    margin-left: 14%;
+    padding-bottom: 20px;
+  margin-top: -50px;
+  }
+  .officialpic .officialshortdiv h4{
+    font-size: 20px;
+    
+  }
+  .officialcontent h1{
+  font-size: 28px;
+  margin-left: 30%;
+  }
+  .officialpic .officialshortdiv p{
+    font-size: 15px;
+    margin-right: 13px;
+  }
+  .officialpic .officialshortdiv button{
+    width: 100px;
+    height: 40px;
+   font-size: 14px;
+  }
+
+}
+
+@media all and (max-width:767px){
+
+  .officialcontent .officialpic{
+    width: 100%;
+    height: auto;
+  }
+
+  .officialcontent .officialpic .officialshortdiv{
+  
+    height:auto;
+    width: auto;
+   margin-right: 100px;
+   margin-left: 100px;
+    padding-bottom: 20px;
+  margin-top: -50px;
+  }
+  .officialpic .officialshortdiv h4{
+    font-size: 18px;
+    
+  }
+  .officialcontent h1{
+    padding-top: 40px;
+  font-size: 24px;
+  margin-left: 30%;
+  }
+  .officialpic .officialshortdiv p{
+    font-size: 13px;
+    margin-right: 13px;
+  }
+  .officialpic .officialshortdiv button{
+    width: 90px;
+    height: 35px;
+   font-size: 12px;
+   margin-top: -3px;
+  }
+  .officeparagraph .paragraph h4{
+   /* margin-top: -30px; */
+    font-size: 18px;
+  }
+  .officeparagraph .paragraph p{
+    font-size: 14px;
+    
+  }
+  .officelunchparagraph ul li{
+    
+    font-size: 14px;
+   
+    }
+
+}

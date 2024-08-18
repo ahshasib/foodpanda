@@ -1,0 +1,185 @@
+.section1{
+    height: 650px;
+    width: 100%;
+    background-color:rgb(241, 241, 241);
+    display: flex;
+   
+    
+}
+.forntscine{
+    width: 100%;
+    display: flex;
+    position: relative ;
+}
+
+
+.forntscine .mainimg{
+    right: 0;
+    bottom: 0;
+    position: absolute  ;
+    width: 50%;
+    height: 96%;
+  
+}
+.forntscine .mainimg img{
+  
+   width: 100%;
+   height: 100%;
+   box-shadow: rgba(0,0,0,0.6);
+}
+
+.forntscine .maintext{
+    width: 40%;
+    left: 230px;
+    top: 230px;
+    position: absolute  ;
+}
+
+.forntscine .maintext h1{
+    margin-bottom: 35px;
+}
+
+.forntscine .maintext .maininput{
+    width: 90%;
+    display: flex;
+    height: 80px;
+    background-color:#fff;
+    border-radius: 16px;
+    position: relative;
+
+}
+.maininput .button01 {
+    position: absolute;
+    right: 140px; /* Adjust based on button width */
+    top: 0;
+    height: 100%;
+    border: none;
+    background: none;
+    padding: 0 10px;
+    color: #FF2B85; /* Adjust for button padding */
+    font-weight: 600;
+  }
+.maintext .maininput input{
+    width: 50%;
+    height: 45px;
+    margin-top: 17px;
+    margin-left: 16px;
+    background: transparent;
+   position: relative;
+   width: calc(100% - 50px);
+   color: rgba(0,0,0,0.6); /* Adjust width based on button width */
+   
+}
+
+
+
+.maintext .button02{
+   width: 110px;
+   height: 45px;
+    background-color: #FF2B85;
+   margin-top: 17px;
+   margin-left: 15px;
+   border: none;
+   color: #fff;
+   display: inline-block;
+   margin-right: 14px;
+   font-weight: 600;
+
+}
+
+
+@media (min-width: 769px) and (max-width: 992px){
+    .section1{
+       
+        width: 100%;
+        height: 500px;
+      
+       
+        
+    }
+    .section1 .maintext{
+        left: 40px;
+        width: 45%;
+       
+    }
+    .section1 .maintext h1{
+        font-size: 30px;
+    }
+    .forntscine .mainimg {
+       right: -15px;
+      
+        width: 50%;
+        height: 80%;
+    }
+    .section1 .maintext .maininput{
+        width: 100%;
+        height: 70px;
+    }
+    .maintext .maininput input{
+        width: 100%;
+        height: 55%;
+        font-size: 14px;
+    }
+
+    .maininput .button01{
+        font-size: 14px;
+        margin-right: -20px;
+       
+    }
+    .maininput .button02{
+        width: 84px;
+        height: auto;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+}
+
+@media all and (max-width:767px){
+    .section1{
+       
+        width: 100%;
+        height: 350px;
+    }
+
+    .section1 .maintext{
+        left: 40px;
+        width: 45%;
+       
+    }
+    .section1 .maintext h1{
+        font-size: 24px;
+        margin-top: -30px;
+      
+    }
+    .forntscine .mainimg {
+        right: -15px;
+       
+         width: 50%;
+         height: 75%;
+     }
+     .section1 .maintext .maininput{
+       
+        width: 90vw;
+        height: 65px;
+        z-index: 1;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .maintext .maininput input{
+        width: 100%;
+        height: 54%;
+        font-size: 13px;
+    }
+    .maininput .button01{
+        font-size: 13px;
+        margin-right: -20px;
+    }
+    .maininput .button02{
+        width: 84px;
+        height: auto;
+        font-size: 14px;
+        margin-top: 18px;
+    }
+
+}

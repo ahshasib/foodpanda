@@ -1,0 +1,431 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.foodordertopfullpage{
+    border-bottom: 1px solid rgba(87, 87, 87, 0.1);
+    width: 100%;
+    height: 400px;
+}
+.top3button{
+    display: flex;
+    padding-top: 120px;
+    padding-bottom:10px ;
+    margin-left: -10px;
+    
+}
+.top3button button{
+    font-size: 17px;
+    font-weight: 600;
+
+}
+.top3button i{
+    margin-right: 10px;
+}
+.foodorderpagetopimagetext{
+    margin-left: 30px;
+}
+.foodorderpagetopimagetext p{
+    margin-top: 5px;
+    font-size: 16px;
+    color: rgba(0,0,0,0.6);
+}
+.foodorderpagetopimagetext h2{
+    font-size: 34px;
+}
+.foodorderpagetop .foodorderpagetopimage{
+    width: 220px;
+    height: 170px;
+    margin-top: 7px;
+}
+.foodorderpagetop .foodorderpagetopimage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.foodorderpagetop{
+    display: flex;
+}
+.foodorderpagetopimagetext1{
+    display: flex;
+    
+}
+.foodorderpagetopimagetext1 .topresturant{
+   padding: 0 8px;
+    border-radius: 14px;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.2) !important;
+    margin-top: 15px;
+    font-size: 13px;
+    color: black !important;
+    font-weight: 600;
+    
+}
+.foodorderpagetopimagetext1 button{
+    font-size: 15px;
+    font-weight: 600;
+    border:none !important;
+    text-align: center;
+    color: rgba(0,0,0,0.8);
+}
+.foodorderpagetopimagetext1 button .bi-bicycle{
+    margin-right: 5px;
+    font-size: 20px;
+}
+.foodorderpagetopimagetext1 button .bi-bag-check{
+    margin-right: 5px;
+    font-weight: 600;
+}
+.foodorderpagetopimagetext1 .freedeli{
+    margin-top: -8px;
+}
+.foodorderpagetopimagetext1 .topresturant i{
+    margin-right: 3px;
+    font-weight: 600;
+}
+.foodorderpagetopimagetext2{
+    display: flex;
+    margin-left: -14px;
+}
+.foodorderpagetopimagetext2 .bi-star-fill{
+    margin-right: 6px;
+    margin-left: 12px;
+    margin-top: -5px;
+}
+.foodorderpagetopimagetext2 button{
+    margin-top: -8px;
+    font-size: 15px;
+    font-weight: 600;
+    border:none !important;
+    text-align: center;
+    color: rgba(0,0,0,0.8);
+}  
+.availabledeals{
+    height: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.availabledeals h4{
+padding: 32px 0px;
+}
+.availabledealscontainer{
+    display: flex;
+    gap: 20px;
+}
+.availabledealscontainer .propandacard1{
+    width: 280px;
+    height: 110px;
+    background-color: rgb(238, 237, 237);
+    border-radius: 13px;
+   transition: transform 0.6s;
+   cursor: pointer;
+}
+.availabledealscontainer .propandacard1:hover{
+   -ms-transform: scale(0.5);
+   -webkit-transform: scale(0.5);
+   transform: scale(1.05);
+   background-color: #fdf0f5;
+}
+
+.availabledealscontainer .propandacard2{
+    width: 280px;
+    height: 110px;
+    background-color: rgb(252, 241, 245);
+    border-radius: 13px;
+    transition: transform 0.6s;
+    cursor: pointer;
+}
+.availabledealscontainer .propandacard2:hover{
+    -ms-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(1.05);
+    background-color: #fdf0f5;
+ }
+.availabledealscontainer .propandacard3{
+    width: 280px;
+    height: 110px;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 13px;
+    background-color: rgb(255, 255, 255);
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+
+.availabledealscontainer .propandacard3:hover{
+    -ms-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(1.05);
+    background-color: #fdf0f5;
+ }
+.availabledealscontainer .propandacard1 h6{
+    margin-top: 10px;
+    font-size: 15px;
+   
+}
+.availabledealscontainer .propandacard2 h6{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #FF2B85;
+}
+.availabledealscontainer .propandacard3 h6{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #FF2B85;
+}
+.availabledealscontainer .propandacard1 p{
+    font-size: 13px;
+    margin-left: 15px ;
+    color: rgba(0,0,0,0.8);
+    width: 220px;
+}
+.availabledealscontainer .propandacard2 p{
+    font-size: 13px;
+    margin-left: 15px ;
+    color: rgba(0,0,0,0.8);
+    width: 220px;
+}
+.availabledealscontainer .propandacard3 p{
+    font-size: 13px;
+    margin-left: 15px ;
+    color: rgba(0,0,0,0.8);
+    width: 220px;
+}
+.availabledealscontainer .propandacard1 span{
+    background-color: rgb(51, 11, 137);
+    color: #fff;
+    border-radius: 6px;
+    font-size: 10px !important;
+    padding: 2px 6px;
+    margin-left: 15px;
+    margin-right: 5px;
+   
+}
+.propandacard1 span .bi-rocket-takeoff-fill{
+    font-size: 3px !important;
+    margin-right: 5px;
+}
+
+    
+
+.availabledealscontainer .propandacard2 img{
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    margin-top: -3px;
+    margin-right: 8px;
+    margin-left: 15px;
+    
+}
+
+.availabledealscontainer .propandacard3 img{
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    margin-top: -3px;
+    margin-right: 8px;
+    margin-left: 15px;
+}
+
+
+
+/* Container Styles */
+.contin {
+   
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    /* gap: -10px; */
+    align-items: flex-start;
+   padding-top: 10px;
+    height: 140vh;
+    margin-bottom: 100px;
+}
+
+/* Left Card Styles */
+.leftfoodordercard {
+    
+    width: 89%;
+    align-items: flex-start !important;
+    margin-left: 230px;
+    
+    /* padding: 20px; */
+   
+}
+
+.leftfoodordercard h2 {
+    padding: 23px 0px;
+    font-size: 30px;
+}
+
+.leftfoodordercard .p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Card Container Styles */
+.leftfoodcardjora {
+    
+    width: 100%;
+    align-items: flex-start !important;
+   
+    display: flex;
+    flex-wrap: wrap !important;
+   
+    margin-top: 20px;
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    .foodorderpagetopimagetext h2{
+        font-size: 24px;
+    }
+    .foodorderpagetop .foodorderpagetopimage{
+        width: 24%;
+        height: 24%;
+        margin-top: 7px;
+    }
+    .foodorderpagetop .foodorderpagetopimage img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    .foodorderpagetopimagetext p{
+        font-size: 13px;
+    }
+    .leftfoodordercard {
+        margin-bottom: 40px;
+        margin-left: 40px;
+        
+        /* padding: 20px; */
+       
+    }
+
+
+}
+
+@media all and (max-width:767px){
+
+    .foodorderpagetopimagetext h2{
+        font-size: 20px;
+    }
+    .foodorderpagetop .foodorderpagetopimage{
+        width: 35%;
+        height: 35%;
+        margin-top: 7px;
+    }
+    .foodorderpagetop .foodorderpagetopimage img{
+        width: 100%;
+        height: 100%;
+    }
+    .foodorderpagetopimagetext p{
+        font-size: 11px;
+    }
+    .leftfoodordercard {
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+    .foodorderpagetopimagetext1 .topresturant{
+        font-size: 9px;
+    }
+    .foodorderpagetopimagetext1 button{
+        font-size: 11px;
+       
+    }
+    .top3button button{
+        font-size: 14px;
+    }
+    .foodorderpagetopimagetext2 button{
+       
+        font-size: 12px;
+       
+    }  
+    .availabledeals{
+        height: auto;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .availabledeals h4{
+   font-size: 18px;
+   text-align: center;
+    }
+    .availabledealscontainer .propandacard1{
+        width:40%;
+        height: auto;
+        margin-left: -80px;
+    }
+    .availabledealscontainer .propandacard1 h6{
+        font-size: 14px;
+    }
+    .availabledealscontainer .propandacard1 p{
+        font-size: 11px;
+        width:200px;
+    }
+
+    .availabledealscontainer .propandacard2{
+        width:40%;
+        height: auto;
+       
+    }
+    .availabledealscontainer .propandacard2 h6{
+        font-size: 14px;
+    }
+    .availabledealscontainer .propandacard2 p{
+        font-size: 11px;
+        width:200px;
+    }
+    .availabledealscontainer .propandacard3{
+        width:40%;
+        height: auto;
+       
+    }
+    .availabledealscontainer .propandacard3 h6{
+        font-size: 14px;
+    }
+    .availabledealscontainer .propandacard3 p{
+        font-size: 11px;
+        width:200px;
+    }
+    
+
+    .contin {
+   
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+    
+    /* Left Card Styles */
+    .leftfoodordercard {
+       
+        width: 100%;
+    }
+    
+    .leftfoodordercard h2 {
+        margin-left: -100px;
+        text-align: center;
+        font-size: 23px;
+    }
+    
+    .leftfoodordercard .p {
+        margin-top: -13px;
+        margin-left: -80px;
+        text-align: center;
+        font-size: 15px;
+       
+    }
+
+    .leftfoodcardjora {
+        width: 98%;
+        height: auto;
+       margin-left: -33px;
+        gap: 13px;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    
+}
+
+
+
